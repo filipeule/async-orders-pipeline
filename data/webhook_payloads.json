@@ -1,0 +1,402 @@
+[
+  {
+    "gateway": "lancelot",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "transaction_id": "ORD-2026-001",
+      "transaction_time": "2026-05-20T10:00:00Z",
+      "event": "order.approved",
+      "customer": {
+        "email": "lelouch.lamperouge@codegeass.com",
+        "first_name": "Lelouch",
+        "last_name": "Lamperouge",
+        "phone": "+5511910001001",
+        "country": "BR"
+      },
+      "product": {
+        "id": "PROD-001",
+        "name": "Zero Mask",
+        "niche": "rebellion_supplies",
+        "quantity": 1
+      },
+      "payment": {
+        "status": "approved",
+        "amount_usd": 199.99,
+        "method": "credit_card"
+      }
+    }
+  },
+  {
+    "gateway": "guren",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Guren-Encrypted": "true"
+    },
+    "body": {
+      "nonce": "eD5Q/dpqHxdex8wx",
+      "ciphertext": "MOCGuyZRCFlTm1nLsN4ssJQDbu6EWuYf3cn884E7YZ/ktdrzm9RpBHIphVE1AwGod2Wbqs08QriMWWEbyvxvnYj5ywHBKdkjeXdcwAZVGge9PDYYZBbGc1tgCix9kCZ8srZ9WYTuFoifq2rDrRtcJk9PgSl5r2FoYBriDTYCKGDW9shDMc1quuvIGhQ+CVdazjUuwCE4GyrZI7mvR30FI2QIYc/804fbxYEa3KNY6eyKmkLm/4bV9uPjvqQO6gQSgpFAJYNJQDsgGU/Jv/hYeUJPL2wwkMChA6mYCY/4Q5uwC1gtV4RKE54c7sl6+RB/QlojtOmq7ssyz1MbIkenwYPQIUSQNuipk+LXNgKnKVdTP+rgBgQ4khHsgPFJBIgNH+SjVR/KefvhVYn73e3yLY+OSaUZiFuxQ854ytIUrgnZFBjnK1j+OxV7ZXik6OGjEzqjTbD/we3hr8595JgBHq+Ja3iQD3YdTF994N+nxtBLGu8dIcRyRJeef+pk8e8r1MIs7mjhjQiYU5m3t10XZ0KbTh4i04PeK9BhoqNasvkGqydhPa61Tjabr0FPW1ZTyXBhTtligA=="
+    }
+  },
+  {
+    "gateway": "lancelot",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "transaction_id": "ORD-2026-002",
+      "transaction_time": "2026-05-20T11:15:00Z",
+      "event": "order.approved",
+      "customer": {
+        "email": "suzaku.kururugi@codegeass.com",
+        "first_name": "Suzaku",
+        "last_name": "Kururugi",
+        "phone": "+819011002002",
+        "country": "JP"
+      },
+      "product": {
+        "id": "PROD-002",
+        "name": "Knight of Zero Insignia",
+        "niche": "knightmare_combat",
+        "quantity": 1
+      },
+      "payment": {
+        "status": "approved",
+        "amount_usd": 599,
+        "method": "credit_card"
+      }
+    }
+  },
+  {
+    "gateway": "guren",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Guren-Encrypted": "true"
+    },
+    "body": {
+      "nonce": "Cj4UgavKCQTPQ/BF",
+      "ciphertext": "6vKgwyFK4EzalchBOkb67GyFHqQkckC802QUDxTmX8E0lgXAesDLmB7iQl2gB+k2hJj1GwqKabEHWEqHPzK+Jy4PzER3D7Y3X83CSWhKajAWkM9Zs5EI5DnuWN05nuxhHPhEQ98OjnXyqniqT7XqMasUO10nPpkcPkVXrWYxMdqbFKhFXOcrj1zlIP/nkZHn8/R8qc3Ss7+R2NIPHa3t3o2jCq+UuBaD0Yu0nADIzK2LMMhSCzml67ZOeTTphPbzHcmGNvYhVLzbWo+Zzh6QkpC4ny2Ryl7zGciZpVvaDbWIErfcutvQuZhZUmK8IM17o768mLyasFbd+nnoDRiGeYXKXw5eWUjU9SjFUSPxMEgHIOv91zj1fzJoes94zSdEjTEAmzq7q+qsKn8gBgdPC+Wre1zx03o0KfRhPxe9xRLz6SKhhVygBmGEqXwmdz4PpinfJDM2jNgYJQpSPPUQFvhcX3xyP9F7Hb13OVBI/eOq2fZudCRKI98Jo1Mn7KODKl0MsZLsS86wHrMAL0Y+waPp3a+CbFsyW66ZVVd5qIBnu5DLGaNPOILSGM7ZxjV01PvOqkMc+4o="
+    }
+  },
+  {
+    "gateway": "lancelot",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "transaction_id": "ORD-2026-003",
+      "transaction_time": "2026-05-20T12:30:00Z",
+      "event": "order.approved",
+      "customer": {
+        "email": "kallen.kozuki@codegeass.com",
+        "first_name": "Kallen",
+        "last_name": "Kozuki",
+        "phone": "+819011003003",
+        "country": "JP"
+      },
+      "product": {
+        "id": "PROD-003",
+        "name": "Guren Hex Beam Module",
+        "niche": "rebellion_supplies",
+        "quantity": 2
+      },
+      "payment": {
+        "status": "approved",
+        "amount_usd": 84.5,
+        "method": "paypal"
+      }
+    }
+  },
+  {
+    "gateway": "guren",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Guren-Encrypted": "true"
+    },
+    "body": {
+      "nonce": "fROT61cP94LL3sKJ",
+      "ciphertext": "eHovUaStEtfuJ1mBdxMR7fZJR4Ou+e79Pm2qn8wUiz4mxR6noOOGN5lFOy9OBUN8yGe/aDz8w6m9M8LN4hv2Do1veExISJKjmV857Ue7TLSwJoVMFUuxPlZ59rzg4ytu4tXHlrG1fQroDeSYDFjmr1YIxS22WPTmlt1wPqJn1Is53cE7yOOVqo8oz9RT6DdvA471lUgjAlWNI/+25HDXq8Eoa3n515BWfKjBeFTN+KC/fcJLMu5NuujTxJoe/mUHKdnsoJXE7MC8VfAebNmzWMSTIqe4wuexAa7mQoV9dsceAkC41qQtfnUlxFexJhoW8gBmzn3iR6IpUl2MQaXcfHFy0yZWNY/2eclvc85ejaVQE8WuLVUnXS3LH0aa6/olEIxsjP6HIURFYixujBGlja5V8o3h6ywzFhNWrJFrcHw8xuz9VPHoWPiB0Y8KdgVLK937EjRpBttjSKIgzIqu9r6NcYY2wAm4kfJwW9Wga5iz2KnO4YBfHNK3Vy5vYWv9IEflUUB86W0QJqJZADpWTJssKJy+cA=="
+    }
+  },
+  {
+    "gateway": "lancelot",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "transaction_id": "ORD-2026-004",
+      "transaction_time": "2026-05-20T13:45:00Z",
+      "event": "order.approved",
+      "customer": {
+        "email": "cc@codegeass.com",
+        "first_name": "C",
+        "last_name": "C",
+        "phone": "+5511910004004",
+        "country": "BR"
+      },
+      "product": {
+        "id": "PROD-004",
+        "name": "Pizza Hut Voucher Pack",
+        "niche": "gourmet",
+        "quantity": 5
+      },
+      "payment": {
+        "status": "approved",
+        "amount_usd": 75,
+        "method": "credit_card"
+      }
+    }
+  },
+  {
+    "gateway": "guren",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Guren-Encrypted": "true"
+    },
+    "body": {
+      "nonce": "vb85jNheBJPOilee",
+      "ciphertext": "dxlvgFRI32Amojp7gPj8S9Qf6ZHZyWmkiE2xssy+Xc+jjApZ8y1Or4jeDe1ykYFMbYTZUl59YyGXeZb0yMDCjKvo42n5AbPVMKVUjouhIutg6Tb11EOSvhIdTkVSk2ZQKsJIKVYjyYUtq7TsZZI1QXTJARlB1Rbw4auQbkfAxmeE84jHRY6vGgNj4YcL7139sQgGIVl9N6odgyIZ3QIGRWEcvICzZnf/a1Z/8HUBClxxU9AV/AFxQd+IgUjEeflKxCLTmQ4H8+Vfg1/XvHbcanlk9l3mFGon7f87KIvkV/iPAAEXZ1vLPx46e4IVKTLe19r7pU8TpIACvxGJPDQrtzqYNPt1TuiAvrdogto8grmcPSOgPjUhIYPNs/Tffl04Pzs21VrHXfEZ77j7pCKB9sqMhGD2k/vOlbbLJYepOVYS/0fghTkChEiwMqd72ygXVmiu6jZyyk2W2V7KNl4fN1OYXo6ZcZUtF5pYWVPIrvhAIWapidwO9P936mTeAYDkRDbWXNYWztEFC1hrZeZPgZqKosokP1EKhhNJlpycxVYWKq4/4PWny/BRbqgt7eI="
+    }
+  },
+  {
+    "gateway": "lancelot",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "transaction_id": "ORD-2026-005",
+      "transaction_time": "2026-05-20T14:00:00Z",
+      "event": "order.approved",
+      "customer": {
+        "email": "euphemia.libritannia-not-an-email",
+        "first_name": "Euphemia",
+        "last_name": "li Britannia",
+        "phone": "+5511910005005",
+        "country": "BR"
+      },
+      "product": {
+        "id": "PROD-005",
+        "name": "SAZ Membership Kit",
+        "niche": "charity",
+        "quantity": 1
+      },
+      "payment": {
+        "status": "approved",
+        "amount_usd": 150,
+        "method": "paypal"
+      }
+    }
+  },
+  {
+    "gateway": "guren",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Guren-Encrypted": "true"
+    },
+    "body": {
+      "nonce": "YWKodDh5y/MDd12N",
+      "ciphertext": "/hcEEQ53kBh+ddusLHbnv3sXkNpGAd1Mitj/NlHZPq8VCFLX2XSBn2XeDGFJ3qtzTmJRWt7GuLrgnGgrrvuN+zTUL2PpMn8ZSaSMAaIE0QH9+iqkoHSTC2GhuwY6x56MH2fgZ0m3Vdm4d6pEgkVVQXqzq2jd4/jA4gjlImcI7OpUpoRkLqccOEpyhnabsLLBxiGRJGoOuUoT5oXcto9/zEGALqkUdvyGqs752AaykwH6aY9UctzEfTSn3/9Bv92MMvW0LKE8zIgrR0o+dy98/5nITJVwHtRWEFBtJ/RCI+kturp3h4uVF5gapZwqDvwlDjFRvxeg1BK4SVFSM4R/8BMlhW8ETSqtnMzo0+ZSr8y7mH35O/l6nJP24lttsyIYsi0uXWtg1oS5L3qazWOGQR7xvhlFhqifOFcC0LHtLqWECANdZ7VE2C9ZkpEVnZUKhdFgG4Q5Cq2l5JdQOLF9T8R/5p8v8CXGHLb913pSS4clbT/xymsrNDJ/ZNbpsNGD0AX58RMW6ze58+/p91LFke82Yvn4ykoqexpwx0nFUb3SvDpCtTJg63jju1XH"
+    }
+  },
+  {
+    "gateway": "lancelot",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "transaction_id": "ORD-2026-001",
+      "transaction_time": "2026-05-20T10:00:00Z",
+      "event": "order.approved",
+      "customer": {
+        "email": "lelouch.lamperouge@codegeass.com",
+        "first_name": "Lelouch",
+        "last_name": "Lamperouge",
+        "phone": "+5511910001001",
+        "country": "BR"
+      },
+      "product": {
+        "id": "PROD-001",
+        "name": "Zero Mask",
+        "niche": "rebellion_supplies",
+        "quantity": 1
+      },
+      "payment": {
+        "status": "approved",
+        "amount_usd": 199.99,
+        "method": "credit_card"
+      }
+    }
+  },
+  {
+    "gateway": "guren",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Guren-Encrypted": "true"
+    },
+    "body": {
+      "nonce": "SRkJcwj1KVejGR/u",
+      "ciphertext": "qHm0xMesOfyR/Emcu8l9ssoHlSz4s7va7Tvi5HWOMzybREkEdWByckDnr1IHaV/hIlMZWrpo+aENaY3PwxkHfhMHVuBeya7XMDF5dYclGBepP0VdDjxtvvHnPL7QQ2OycNSQjFKAkzAkagk+Pb+rdr7sq6bTuVXVuoyF/SZnF5Qf0pIRRXKZAU72jiSUPLJ7mFSVtIypIRvynR68oB5MqVitJqLcTLXWQ+Qj9zPBtS0IJI81QOAR2eV2yYatbYt+ODzJGJrgL2s1cwZ3o9kNQh0+9GVQK8XaD9PrB+bcbcjBWSlaNOjGJoxpQ0DI2+qC70nqcmLOJeXSyKFpNrn9wHYz+6L+boUk1HAFzYnozRuyXBmgKaqLlXvkf4kplYv74hi7z+G+Pt/4zaD7qrItXK/LBiFZ5/V5L4AwrCjj9NfZm7nmw3c1/jde/zZEkHYxxqY87gKCka4A8HIJXNRhd9v7zBgk5UAM4zxAHU9+SqQh3WyCyYf3zoivWKpQo2M44R9Shk4Yjx939KBq3KH9s3dRqf2wR9g3LmFlv8AqLDb9UNyWNLcL6A0nmqr6WoURwmZPQld9nQ=="
+    }
+  },
+  {
+    "gateway": "lancelot",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "transaction_id": "ORD-2026-003",
+      "transaction_time": "2026-05-20T12:30:00Z",
+      "event": "order.approved",
+      "customer": {
+        "email": "kallen.kozuki@codegeass.com",
+        "first_name": "Kallen",
+        "last_name": "Kozuki",
+        "phone": "+819011003003",
+        "country": "JP"
+      },
+      "product": {
+        "id": "PROD-003",
+        "name": "Guren Hex Beam Module",
+        "niche": "rebellion_supplies",
+        "quantity": 2
+      },
+      "payment": {
+        "status": "approved",
+        "amount_usd": 84.5,
+        "method": "paypal"
+      }
+    }
+  },
+  {
+    "gateway": "guren",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Guren-Encrypted": "true"
+    },
+    "body": {
+      "nonce": "9oQ+MMRIsMA3Y4US",
+      "ciphertext": "6NwBOrp2AZYXg4aateryMkqpz7a3s4ztNOcqC2R7E8p0qvBWm1zS1CMYJnBKvG8wFxHj+3UhMbq+FnWQ+J5GSqDz+tPib7rjoi2RQF7aN1FiEYkJ4+Gnpqmlp4ruEJdGRu4G+bh01SIAUD5oN2Le4EvqqHBdpFlMkvIjeFrHHy5JefL02ah6tEz/B9lWpC7qbb2gyoEnmzf8O/oHXwHbgqpC6X/rhiDLA17+3N5c+3k9L2xJgb9FNQJtV1W5JFYOJFU6eB6YNkxA+9ZII/hoEv4BkpNtUi98T2tlD6cVXozM+I+voI0JYJJqz17T3/O10urSFXzVPut5OCtUpw08E10lblX/3Ih7kVCgs08Li+XVv7LddtRx+LZdcXN1Vya3Q4WMMFMrUeMaMu8FiWFaH+yDPmm9TqcgxWkgnZRdP7kvj+UF57LXMtRchhB5LiExQQvUjpt5RA117rfSuWWfsJswRXf/EPd9utbO8fiDjkwjtU5mAWRdEHPGC/vElJBtgf/Owt5QHo5dlt9itAMF2jESuO0ybA=="
+    }
+  },
+  {
+    "gateway": "lancelot",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "transaction_id": "ORD-2026-008",
+      "transaction_time": "2026-05-20T15:20:00Z",
+      "event": "order.approved",
+      "customer": {
+        "email": "shirley-fenette@codegeass.com",
+        "first_name": "Shirley",
+        "last_name": "Fenette",
+        "phone": "+5511910008008",
+        "country": "BR"
+      },
+      "product": {
+        "id": "PROD-008",
+        "name": "Tennis Racket",
+        "niche": "ashford_academy",
+        "quantity": 1
+      },
+      "payment": {
+        "status": "approved",
+        "amount_usd": 65,
+        "method": "credit_card"
+      }
+    }
+  },
+  {
+    "gateway": "guren",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Guren-Encrypted": "true"
+    },
+    "body": {
+      "nonce": "2ySuETUblhSmqyxr",
+      "ciphertext": "F1P9SM2swX8xm1isZAqmon9btFrOch+r00ULTcaFz0i0UGTn1EM+cJNtDCp6M1ao1XqTMO6sGhP5TRdX28NsnaFtuPX96LM/J2WSUD/1TZuFTnQAA4LiEaBDHWzan73dkGVYfZ1sHSfLqXtOEewcRkC+rwrH3vv7BSq8lkERZPuJYSNZx/vIX1JuaRcOPv2Sa9NnOEz+QxNhDPA81ltDDOxhC1caScy0H1EvlFltlZB2uy6qYpo4UxdE+mQSf7EL/ihODsQku2IrvHe7hkX8qAHaLLf7CXLnzafHDqi0D1xY54VEiL/yRGsWzlLdpFAe4i5Y4RaOHYJ2aLimOVDKA4c5luJUVXTrYvEYmk6wImSLKx2vv/1jk8j8df9Tpx9xYUPm8SYrYvi5O+itYNAXvWYR2RZi0MC8Zsn2NIzZKR1y5t+sXUephuN4Rgedokcu7/zZGZYhoLy0uFP+eVAi8hIEpFVptoDjYzk+GMboy8JEJHzJR9w7tg0ah1/W5LNXqh312EgGzF6HQi2EEQzQgg=="
+    }
+  },
+  {
+    "gateway": "lancelot",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "transaction_id": "",
+      "transaction_time": "2026-05-20T16:00:00Z",
+      "event": "order.approved",
+      "customer": {
+        "email": "nunnally.lamperouge@codegeass.com",
+        "first_name": "Nunnally",
+        "last_name": "Lamperouge",
+        "phone": "+5511910009009",
+        "country": "BR"
+      },
+      "product": {
+        "id": "PROD-009",
+        "name": "Origami Crane Set",
+        "niche": "peace_advocacy",
+        "quantity": 10
+      },
+      "payment": {
+        "status": "approved",
+        "amount_usd": 35,
+        "method": "credit_card"
+      }
+    }
+  },
+  {
+    "gateway": "guren",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Guren-Encrypted": "true"
+    },
+    "body": {
+      "nonce": "HLbokwjb4b9mQ1X+",
+      "ciphertext": "K6HCSrhZ8ANREtbJvCQQkyQVGLfAmuJ/JaNWGVUPjuOieHKDYMe/FXkS+qwKpLmk8+sLsN15cHCeaf06D2rmG1YYHc4fwOUqpPVSe2qY3nBJIQTA6UWgx865Tw6hp0v5p0cEcViVknk8YHTsGJh8IPwgT7mp1iW3FRyN79klCL3Qc5hvckpIp+199QgE2Hoqk9EFwOYGLCKgdM3odoafCCYyfI8qm3cGBX+gl1kN/6KFKts9i9R9qdxl8hLruFGRPIZY8UWau54I9z5+Rxr+QBI5FnTN7HfOgwJ/u+XduybxFqW6eLTf11Rdfn4NyycnWGpTdWmO3vh+REn3vKbZOi1LULjuqlQpwGz/4q7TmPp87oiBkbUL7pI40zCIkYcmTznA/ShSxlWCv6fJrxXyb8nx9IbCPHlIjKvsRi+ewNBlrA0qlO3vkR7JrDpIYGEJ6q8VAjoj7Wha7ZF/6qjxVyNO58+INB6m7ZR1zvcbupkvGU8bKQrgd1bQ1rPK0zOc3yNfI0BrKH9SEsC4g6cIp7ZOpXlCdXQ="
+    }
+  },
+  {
+    "gateway": "lancelot",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "transaction_id": "ORD-2026-010",
+      "transaction_time": "2026-05-20T17:30:00Z",
+      "event": "order.refunded",
+      "customer": {
+        "email": "milly.ashford@codegeass.com",
+        "first_name": "Milly",
+        "last_name": "Ashford",
+        "phone": "+5511910010010",
+        "country": "BR"
+      },
+      "product": {
+        "id": "PROD-010",
+        "name": "Cosplay Wedding Dress",
+        "niche": "ashford_academy",
+        "quantity": 1
+      },
+      "payment": {
+        "status": "refunded",
+        "amount_usd": 320,
+        "method": "credit_card"
+      }
+    }
+  },
+  {
+    "gateway": "guren",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Guren-Encrypted": "true"
+    },
+    "body": {
+      "nonce": "m3HmRIMT8YsoOIhq",
+      "ciphertext": "+76cBXUhLjNYnYf8Ay8D916BKI7kXPwtVV9abJj4jT0dWh+zqeweAieuCDYK9g9YQTJI99R+wYww233XB8bjC9IE84ZDKqziDubgj+vH2egt+6eWFEl1wss8io52OcoQN22wtIjh6VoewMqph280Y97D7ZlpZlE/xj+eZ+LU5vbThg4GtSNKBCTFX0b5lSuDOf9aigtCoBaRC6OfpMCYzO17ohkadKkV2oGbLbisJK++r99zrg/LLN/Mk2Gw2MCLo4gpl+S1jRly6StMdKbUJZbpm81a90Vb9MeyGwm8mQSc6BTc16lc3OqPttFGu22BphJuqpqNdF03CThZjpXlVL5/zsXE1QJZp3HEVGKZZuNJ9SDoNux6cYRzmPAKB/F7PD/Xd3Us6EmSs9MnWV1+vkWWjgV2RmrTkZtoASKsiFHpHuY0RFaaH838BctVniHiSty2XOb3XOXXLmB0TYOTkvyPTGZ+I2egli2rCyLdhkQwV2muv6oLr657FKXWy1tx6a0Ayhr4IUgON5ZhalF8uzfiERSnHVYQbXZ5ULs2+O92figKlYM="
+    }
+  }
+]
