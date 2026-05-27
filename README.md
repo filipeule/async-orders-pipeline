@@ -52,7 +52,7 @@ cmd/
     test-webhooks/      script que testa, envia os payloads e cruza com os dados do banco
     generate/           gerador do dataset de teste (encripta os guren com GCM)
 data/
-  webhook_payloads.json dataset de teste (20 payloads temáticos de Code Geass)
+  webhook_payloads.json dataset de teste (20 payloads)
 internal/
   config/               leitura de env vars
   crypto/               AES-256-GCM decrypt
